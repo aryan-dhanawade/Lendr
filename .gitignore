@@ -1,0 +1,35 @@
+# Ignore node_modules in Webapp folder
+/Webapp/node_modules/
+
+# Ignore npm/yarn lock files (if inside Webapp folder)
+/Webapp/package-lock.json
+/Webapp/yarn.lock
+
+# Ignore build and dist folders (if in Webapp folder)
+/Webapp/build/
+/Webapp/dist/
+
+# Ignore environment variables (if inside Webapp folder)
+/Webapp/.env
+
+# Ignore log files and logs folder (if inside Webapp folder)
+/Webapp/*.log
+/Webapp/logs/
+
+# Ignore OS-generated files (macOS, Windows) in Webapp
+/Webapp/.DS_Store
+/Webapp/Thumbs.db
+
+# Ignore IDE/editor settings specific to Webapp (VSCode, JetBrains, etc.)
+/Webapp/.vscode/
+/Webapp/.idea/
+
+# Ignore test coverage reports
+/Webapp/coverage/
+
+# Ignore TypeScript build info (if using TypeScript in Webapp)
+/Webapp/*.tsbuildinfo
+
+# Ignore backup files or temporary files
+/Webapp/*.bak
+/Webapp/*.swp
